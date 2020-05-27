@@ -1,0 +1,21 @@
+{
+    "name": "klunker/yii2-rbac",
+    "description": "Simple web/console manager",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrii Cherepkov",
+            "email": "andrii.cherepkov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "klunker\\rbac\\": ""
+        }
+    }
+}
